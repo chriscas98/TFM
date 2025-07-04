@@ -1,0 +1,21 @@
+
+### `.gitignore` (personalizado si no lo creaste en GitHub)
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos y datos pesados
+*.h5
+*.pkl
+*.pt
+*.csv
+*.zip
+*.tar.gz
+
+# Logs
+*.log
